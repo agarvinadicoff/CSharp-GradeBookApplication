@@ -69,8 +69,8 @@ namespace GradeBook.UserInterfaces
                 Console.WriteLine("Command not valid, Load requires a name.");
                 return;
             }
-            var name = parts[3];
-            //var gradeBook = BaseGradeBook.Load(name);
+            var name = parts[1];
+            var gradeBook = BaseGradeBook.Load(name);
 
 
 
